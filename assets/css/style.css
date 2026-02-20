@@ -1,0 +1,280 @@
+/* ===============================
+   GLOBAL
+================================ */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===============================
+   TOP BAR (PREMIUM)
+================================ */
+.top-bar {
+  background: linear-gradient(90deg,#0c3b6e,#0a2f57);
+  color: #fff;
+  padding: 18px 0;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.45s ease;
+}
+
+/* subtle shine strip */
+.top-bar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(120deg,transparent,rgba(255,255,255,0.18),transparent);
+  transform: skewX(-25deg);
+  animation: topShine 6s linear infinite;
+}
+
+@keyframes topShine {
+  0% { left: -40%; }
+  100% { left: 120%; }
+}
+
+.top-bar .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* admission text */
+.top-text {
+  font-weight: 800;
+  letter-spacing: .6px;
+  text-align: center;
+  padding: 0 70px;
+  font-size: 22px;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+
+/* ===============================
+   APPLY BUTTON (GLOW CTA)
+================================ */
+.apply-btn {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 7px 20px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .4px;
+  color: #e4e7ec;
+  background: linear-gradient(135deg,#e3b41b,#ffb300);
+  border: none;
+  box-shadow:
+    0 4px 10px rgba(0,0,0,0.18),
+    0 0 0 0 rgba(255,193,7,0.6);
+  transition: all 0.25s ease;
+  white-space: nowrap;
+}
+
+/* glow pulse */
+.apply-btn:hover {
+  transform: translateY(-50%) translateY(-2px);
+  box-shadow:
+    0 8px 18px rgba(0,0,0,0.25),
+    0 0 12px rgba(255,193,7,0.7);
+  background: linear-gradient(135deg,#ffe082,#ffca28);
+}
+
+.apply-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+/* ===============================
+   CLOSE BUTTON
+================================ */
+.top-close {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: .85;
+  transition: all 0.25s ease;
+}
+
+.top-close:hover {
+  background: rgba(255,255,255,0.18);
+  transform: translateY(-50%) rotate(90deg) scale(1.05);
+  opacity: 1;
+}
+
+.top-close:active {
+  transform: translateY(-50%) scale(0.9);
+}
+
+/* hide animation */
+.top-bar.hide-bar {
+  height: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+.main-navbar {
+  background: #f5f7fa;
+  padding: 12px 0;
+  border-bottom: 1px solid #e6e9ee;
+  transition: 0.3s;
+}
+
+.main-navbar.sticky-top {
+  box-shadow: 0 3px 14px rgba(0,0,0,0.06);
+}
+
+/* ===============================
+   LOGO
+================================ */
+.navbar-brand {
+  padding: 0;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 80px;
+  object-fit: contain;
+  transition: 0.3s;
+}
+
+.navbar-brand:hover .logo {
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   NAV LINKS
+================================ */
+.navbar-nav .nav-link {
+  color: #1c3c63;
+  font-weight: 700;
+  font-size: 15.5px;
+  position: relative;
+  padding: 8px 6px;
+  transition: 0.25s;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #0c3b6e;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0c3b6e;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+}
+
+/* ===============================
+   INQUIRY BUTTON
+================================ */
+.inquiry-btn {
+  background: linear-gradient(135deg,#0c3b6e,#0a2f57);
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 22px;
+  border-radius: 6px;
+  transition: 0.25s;
+  white-space: nowrap;
+}
+
+.inquiry-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(12,59,110,0.25);
+  color: #fff;
+}
+
+/* ===============================
+   TABLET
+================================ */
+@media (max-width: 991px) {
+
+  .logo { height: 56px; }
+
+  .navbar-collapse {
+    background: #fff;
+    padding: 18px;
+    margin-top: 12px;
+    border-radius: 12px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+  }
+
+  .navbar-nav .nav-link {
+    padding: 11px 0;
+    font-size: 15px;
+  }
+
+  .inquiry-btn { display: none; }
+
+  .top-text {
+    font-size: 18px;
+    padding: 0 60px;
+  }
+
+  .apply-btn {
+    right: 42px;
+    padding: 6px 16px;
+    font-size: 12px;
+  }
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 576px) {
+
+  .top-bar {
+    padding: 12px 0 10px;
+  }
+
+  .top-bar .container {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .top-text {
+    font-size: 15px;
+    padding: 0 14px;
+  }
+
+  .apply-btn {
+    position: static;
+    transform: none;
+    margin-top: 4px;
+  }
+
+  .top-close {
+    top: 6px;
+    right: 6px;
+    transform: none;
+  }
+
+  .logo { height: 48px; }
+
+  .navbar { padding: 8px 0; }
+}
