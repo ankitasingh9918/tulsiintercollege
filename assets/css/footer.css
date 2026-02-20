@@ -1,0 +1,212 @@
+/* ===============================
+   FOOTER BASE
+================================ */
+.footer-section {
+  background: linear-gradient(180deg,#0c3b6e 0%, #092c52 100%);
+  color: #fff;
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 25px;
+}
+
+/* soft top divider glow */
+.footer-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 92%;
+  height: 1px;
+  background: linear-gradient(90deg,transparent,rgba(255,255,255,0.25),transparent);
+}
+
+/* ===============================
+   LOGO BLOCK
+================================ */
+.footer-logo {
+  width: 110px;
+  margin-bottom: 18px;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,0.35));
+}
+
+.footer-about p {
+  color: rgba(255,255,255,0.85);
+  line-height: 1.75;
+  font-size: 15px;
+  max-width: 340px;
+}
+
+/* ===============================
+   TITLES
+================================ */
+.footer-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 22px;
+  position: relative;
+  padding-bottom: 10px;
+  letter-spacing: .3px;
+}
+
+/* elegant underline */
+.footer-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 42px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg,#ffc107,#ffd54f);
+}
+
+/* ===============================
+   LINKS
+================================ */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+  position: relative;
+  padding-left: 0;
+}
+
+/* arrow indicator */
+.footer-links a::before {
+  content: "›";
+  position: absolute;
+  left: -14px;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  padding-left: 12px;
+}
+
+.footer-links a:hover::before {
+  opacity: 1;
+  left: -8px;
+}
+
+/* ===============================
+   CONTACT
+================================ */
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contact li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: rgba(255,255,255,0.88);
+  line-height: 1.6;
+}
+
+.footer-contact i {
+  color: #d7e2e8;
+  min-width: 18px;
+  margin-top: 3px;
+}
+
+/* ===============================
+   SOCIAL
+================================ */
+.footer-social {
+  display: flex;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.footer-social a {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(6px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: 0.35s;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.25);
+}
+
+.footer-social a:hover {
+  background: linear-gradient(135deg,#2cc0ed,#2da3d9);
+  color: #fff;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.35);
+}
+
+/* ===============================
+   BOTTOM BAR
+================================ */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.15);
+  margin-top: 40px;
+  padding-top: 18px;
+  font-size: 14px;
+  color: rgba(255,255,255,0.75);
+  letter-spacing: .3px;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 991px) {
+
+  .footer-section {
+    padding-top: 55px;
+  }
+
+  .footer-logo {
+    width: 95px;
+  }
+
+  .footer-about p {
+    max-width: 100%;
+  }
+
+  .footer-title {
+    margin-top: 15px;
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  .footer-section {
+    padding-top: 45px;
+  }
+
+  .footer-about p {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+
+}
