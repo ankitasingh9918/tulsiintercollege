@@ -35,7 +35,8 @@
 </div>
 
 <!-- ===== NAVBAR ===== -->
-<nav class="navbar navbar-expand-lg main-navbar sticky-top">
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg main-navbar sticky-top shadow-sm">
   <div class="container">
 
     <!-- LOGO -->
@@ -56,30 +57,29 @@
           <a class="nav-link" href="/">Home</a>
         </li>
 
-       <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
-     href="#"
-     role="button"
-     data-bs-toggle="dropdown"
-     aria-expanded="false">
-     
-    About Us
-    <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
-  </a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle d-flex align-items-center gap-1"
+             href="#"
+             role="button"
+             data-bs-toggle="dropdown"
+             aria-expanded="false">
+            About Us
+            <i class="fa-solid fa-chevron-down dropdown-arrow"></i>
+          </a>
 
-  <ul class="dropdown-menu custom-dropdown">
-    <li>
-      <a class="dropdown-item" href="/tulsiintercollege/pages/about.php">
-        About College
-      </a>
-    </li>
-    <li>
-      <a class="dropdown-item" href="/tulsiintercollege/pages/our-schools.php">
-        Our Alumni
-      </a>
-    </li>
-  </ul>
-</li>
+          <ul class="dropdown-menu custom-dropdown">
+            <li>
+              <a class="dropdown-item" href="/tulsiintercollege/pages/about.php">
+                About College
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="/tulsiintercollege/pages/our-schools.php">
+                Our Alumni
+              </a>
+            </li>
+          </ul>
+        </li>
 
         <li class="nav-item">
           <a class="nav-link" href="our-schools.php">Our Schools</a>
@@ -104,9 +104,9 @@
       </ul>
     </div>
 
-    <!-- INQUIRY BUTTON -->
+    <!-- ADMISSIONS INQUIRY BUTTON (VISIBLE ON ALL DEVICES) -->
     <a href="/tulsiintercollege/pages/admissions.php" 
-       class="btn inquiry-btn d-none d-lg-inline-flex align-items-center">
+       class="btn inquiry-btn align-items-center">
       Admissions Inquiry
       <i class="fa-solid fa-arrow-right ms-2"></i>
     </a>

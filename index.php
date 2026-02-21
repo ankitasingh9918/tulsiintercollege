@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tulsi Inter College</title>
+    <link rel="shortcut icon" href="./assets/images/footer.jpeg" type="image/x-icon">
 </head>
 <body>
         <!-- header  -->
@@ -139,7 +140,7 @@
 
       <!-- CARD 1 -->
       <div class="col-lg-4 col-md-6">
-        <div class="vision-card text-center h-100">
+        <div class="vision-card text-center h-100 border">
           
           <div class="vision-avatar">
             <img src="/assets/images/principal.jpeg" alt="">
@@ -167,7 +168,7 @@
 
       <!-- CARD 2 -->
       <div class="col-lg-4 col-md-6">
-        <div class="vision-card text-center h-100">
+        <div class="vision-card text-center h-100 border">
           
           <div class="vision-avatar">
             <img src="/assets/images/teacher1.jpeg" alt="">
@@ -194,7 +195,7 @@
 
       <!-- CARD 3 -->
       <div class="col-lg-4 col-md-6">
-        <div class="vision-card text-center h-100">
+        <div class="vision-card text-center h-100 border">
           
           <div class="vision-avatar">
             <img src="/assets/images/principal.jpeg" alt="">
@@ -247,40 +248,40 @@
     <div class="row g-4">
 
       <!-- ITEM -->
-      <div class="col-lg-6 col-md-6">
+      <div class="col-lg-4 col-md-6">
         <a href="#" class="institution-card">
           <img src="/assets/images/pharmacy.webp" alt="Tulsi Pharmacy College">
           <div class="institution-overlay">
-            <h3>Tulsi Pharmacy College</h3>
+            <h3>Tulsi inter College</h3>
             <span>Explore Program →</span>
           </div>
         </a>
       </div>
 
       <!-- ITEM -->
-      <div class="col-lg-6 col-md-6">
+      <div class="col-lg-4 col-md-6">
         <a href="#" class="institution-card">
           <img src="/assets/images/law.jpg" alt="Tulsi Law College">
           <div class="institution-overlay">
-            <h3>Tulsi Law College</h3>
+            <h3>Tulsi Prathamik Vidyalaya</h3>
             <span>Explore Program →</span>
           </div>
         </a>
       </div>
 
       <!-- ITEM -->
-      <div class="col-lg-6 col-md-6">
+      <div class="col-lg-4 col-md-6">
         <a href="#" class="institution-card">
           <img src="/assets/images/degree.avif" alt="Tulsi Degree College">
           <div class="institution-overlay">
-            <h3>Tulsi Degree College</h3>
+            <h3>Tulsi Public School</h3>
             <span>Explore Program →</span>
           </div>
         </a>
       </div>
 
       <!-- ITEM -->
-      <div class="col-lg-6 col-md-6">
+      <!-- <div class="col-lg-6 col-md-6">
         <a href="#" class="institution-card">
           <img src="/assets/images/school.jpeg" alt="Parth International School">
           <div class="institution-overlay">
@@ -288,7 +289,7 @@
             <span>Learn More →</span>
           </div>
         </a>
-      </div>
+      </div> -->
 
     </div>
   </div>
@@ -363,6 +364,31 @@
             </div>
           </div>
         </div>
+        <!-- SLIDE 3 -->
+        <div class="carousel-item">
+          <div class="row g-3">
+            <div class="col-lg-8">
+              <div class="campus-img large">
+                <img src="/assets/images/campus7.jpeg" alt="">
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="row g-3">
+                <div class="col-12">
+                  <div class="campus-img small">
+                    <img src="/assets/images/campus8.jpeg" alt="">
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="campus-img small">
+                    <img src="/assets/images/campus9.jpeg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
 
@@ -370,10 +396,239 @@
       <div class="carousel-indicators campus-indicators">
         <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#campusCarousel" data-bs-slide-to="2"></button>
       </div>
 
     </div>
 
+  </div>
+</section>
+
+
+<!-- Success Stories From Our Alumni -->
+<section class="alumni-section">
+  <div class="container">
+
+    <h2 class="alumni-title text-center">
+      Success Stories From Our Alumni
+    </h2>
+
+    <div id="alumniCarousel"
+         class="carousel slide"
+         data-bs-ride="carousel"
+         data-bs-interval="4200"
+         data-bs-pause="hover">
+
+      <div class="carousel-inner">
+
+        <!-- SLIDE 1 -->
+        <div class="carousel-item active">
+          <div class="alumni-card mx-auto text-center">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <!-- <div class="alumni-avatar">B</div> -->
+
+            <div class="alumni-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p class="alumni-text">
+              The rigorous moot court training and mentorship from faculty
+              with real-world legal experience were invaluable. The college
+              gave me the strong foundation to confidently begin my practice
+              at the High Court.
+            </p>
+
+            <h4 class="alumni-name">Bhanu Rao</h4>
+            <p class="alumni-role">Junior Advocate, High Court, Lucknow</p>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 2 -->
+        <div class="carousel-item">
+          <div class="alumni-card mx-auto text-center">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <!-- <div class="alumni-avatar">A</div> -->
+
+            <div class="alumni-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p class="alumni-text">
+              Supportive faculty and a strong academic environment shaped
+              my career path. Today I work with a reputed corporate law firm
+              and mentor junior students.
+            </p>
+
+            <h4 class="alumni-name">Anjali Sharma</h4>
+            <p class="alumni-role">Legal Associate, Delhi</p>
+
+          </div>
+        </div>
+
+        <!-- SLIDE 3 -->
+        <div class="carousel-item">
+          <div class="alumni-card mx-auto text-center">
+
+            <div class="quote-icon">
+              <i class="fa-solid fa-quote-left"></i>
+            </div>
+
+            <!-- <div class="alumni-avatar">R</div> -->
+
+            <div class="alumni-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+
+            <p class="alumni-text">
+              Practical exposure and guidance prepared me for judiciary
+              examinations. I cleared in my first attempt and now serve as
+              Civil Judge in Uttar Pradesh.
+            </p>
+
+            <h4 class="alumni-name">Rohit Verma</h4>
+            <p class="alumni-role">Civil Judge, Uttar Pradesh</p>
+
+          </div>
+        </div>
+
+      </div>
+
+      <!-- DOTS -->
+      <div class="carousel-indicators alumni-dots">
+        <button type="button" data-bs-target="#alumniCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#alumniCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#alumniCarousel" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- ARROWS -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#alumniCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#alumniCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Quick Admission Inquiry -->
+<section class="contact-section border border-top">
+  <div class="container">
+
+    <!-- HEADING -->
+    <div class="contact-heading text-center">
+      <h2>Quick Admission Inquiry</h2>
+      <p>Have questions about admissions? Send us a message and our team will assist you.</p>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+
+      <!-- LEFT INFO -->
+      <div class="col-lg-4">
+        <div class="contact-info-card h-100">
+
+          <div class="contact-item">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h5>Address</h5>
+              <p>
+                 Makhanaha, Azamgarh, 
+
+                Uttar Pradesh <br> India – 276142
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h5>Phone</h5>
+             <p>
+  <a href="tel:+919415837201" class="contact-link">+91 9415837201</a><br>
+  <a href="tel:+918953343332" class="contact-link">+91 8953343332</a>
+</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h5>Email</h5>
+            <p>
+  <a href="mailto:tulsiintercollege@gmail.com" class="contact-link">
+    tulsiintercollege@gmail.com
+  </a>
+</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- RIGHT FORM -->
+      <div class="col-lg-8">
+        <div class="contact-form-card h-100">
+
+          <form>
+            <div class="row g-3">
+
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+
+              <div class="col-md-6">
+                <input type="email" class="form-control" placeholder="Your Email">
+              </div>
+
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Phone">
+              </div>
+
+              <div class="col-md-6">
+                <input type="text" class="form-control" placeholder="Your Subject">
+              </div>
+
+              <div class="col-12">
+                <textarea class="form-control" rows="6" placeholder="Your Message"></textarea>
+              </div>
+
+              <div class="col-12">
+                <button type="submit" class="contact-btn">
+                  Send Message
+                </button>
+              </div>
+
+            </div>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
