@@ -12,7 +12,7 @@ body {
 .top-bar {
   background: linear-gradient(90deg,#0c3b6e,#0a2f57);
   color: #fff;
-  padding: 16px 0;
+  padding: 18px 0;
   position: relative;
   overflow: hidden;
   transition: all 0.45s ease;
@@ -35,27 +35,21 @@ body {
   100% { left: 120%; }
 }
 
-/* container layout */
 .top-bar .container {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  gap: 12px;
-  min-height: 42px;
 }
 
-/* text */
 .top-text {
-  font-weight: 600;
-  letter-spacing: .5px;
+  font-weight: 800;
+  letter-spacing: .6px;
   text-align: center;
-  padding: 0 120px 0 60px; /* space for button + close */
-  font-size: 18px;
-  line-height: 1.3;
+  padding: 0 60px;
+  font-size: 20px;
   text-shadow: 0 1px 2px rgba(0,0,0,0.25);
 }
-
 /* ===============================
    BLINKING APPLY BUTTON
 ================================ */
@@ -64,9 +58,9 @@ body {
   right: 48px;
   top: 50%;
   transform: translateY(-50%);
-  padding: 7px 18px;
+  padding: 7px 20px;
   border-radius: 50px;
-  font-size: 14.5px;
+  font-size: 15px;
   font-weight: 800;
   letter-spacing: .4px;
   color: #e4e7ec;
@@ -79,6 +73,7 @@ body {
   animation: applyBlink 1s infinite;
 }
 
+/* glow ring */
 .apply-btn::after {
   content: "";
   position: absolute;
@@ -89,13 +84,29 @@ body {
   animation: applyRing 1s infinite;
 }
 
+/* hover */
 .apply-btn:hover {
   transform: translateY(-50%) translateY(-2px) scale(1.05);
   box-shadow: 0 10px 22px rgba(0,0,0,0.28);
   background: linear-gradient(135deg,#ffe082,#ffca28);
 }
 
-/* animations */
+/* ===============================
+   MOBILE GAP FIX
+================================ */
+@media (max-width: 576px) {
+
+  .apply-btn {
+    position: static;
+    transform: none;
+    margin-top: 8px;   /* ⭐ gap between text & button */
+  }
+
+  .apply-btn:hover {
+    transform: translateY(-1px) scale(1.04);
+  }
+}
+/* brightness pulse */
 @keyframes applyBlink {
   0%,100% {
     filter: brightness(1);
@@ -107,9 +118,16 @@ body {
   }
 }
 
+/* ring pulse */
 @keyframes applyRing {
-  0% { transform: scale(1); opacity:.7; }
-  100% { transform: scale(1.6); opacity:0; }
+  0% {
+    transform: scale(1);
+    opacity: .7;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
 }
 
 /* ===============================
@@ -117,7 +135,7 @@ body {
 ================================ */
 .top-close {
   position: absolute;
-  right: 12px;
+  right: 14px;
   top: 50%;
   transform: translateY(-50%);
   width: 28px;
@@ -132,72 +150,12 @@ body {
   transition: all 0.25s ease;
 }
 
-.top-close:hover {
-  background: rgba(255,255,255,0.15);
-}
-
-/* ===============================
-   TABLET
-================================ */
-@media (max-width: 991px) {
-
-  .top-text {
-    font-size: 16px;
-    padding: 0 110px 0 20px;
-  }
-
-  .apply-btn {
-    right: 42px;
-    padding: 6px 16px;
-    font-size: 13.5px;
-  }
-}
-
-/* ===============================
-   MOBILE
-================================ */
-@media (max-width: 576px) {
-
-  .top-bar {
-    padding: 12px 0 10px;
-  }
-
-  .top-bar .container {
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-  }
-
-  .top-text {
-    padding: 0 10px;
-    font-size: 14.5px;
-  }
-
-  .apply-btn {
-    position: static;
-    transform: none;
-    margin-top: 4px;
-    padding: 6px 18px;
-    font-size: 13.5px;
-  }
-
-  .apply-btn:hover {
-    transform: translateY(-1px) scale(1.04);
-  }
-
-  .top-close {
-    top: 6px;
-    right: 6px;
-    transform: none;
-  }
-}
-
-/* hide animation */
 .top-bar.hide-bar {
   height: 0;
   padding: 0;
   opacity: 0;
 }
+
 
 /* ===============================
    NAVBAR
