@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tulsi Inter College</title>
     <link rel="shortcut icon" href="./assets/images/footer.jpeg" type="image/x-icon">
+    <?php include "header-link.php" ?>
 </head>
 <body>
         <!-- header  -->
@@ -145,6 +146,9 @@
           <div class="vision-body">
             <div class="vision-quote">“</div>
             <h5 class="vision-name">Mr. Jp Singh</h5>
+               <p class="vision-role">
+              Manager – Tulsi Inter College
+            </p>
          
             <p class="vision-text">
               Our vision was to build more than a college; it was to create a
@@ -162,7 +166,35 @@
         </div>
       </div>
 
-      <!-- CARD 2 -->
+        <!-- CARD 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="vision-card text-center h-100 border">
+          
+          <div class="vision-avatar">
+            <img src="/assets/images/pushpa-singh.jpeg" alt="">
+          </div>
+
+          <div class="vision-body">
+            <div class="vision-quote">“</div>
+          <h5 class="vision-name text-capitalize">Smt. Pushpa singh</h5>
+             <p class="vision-role text-capitalize">
+              our mentor – Tulsi Inter College
+            </p>
+            <p class="vision-text">
+              The future demands innovation. Our focus is on integrating modern
+              teaching methodologies and practical, industry-relevant skills to
+              ensure our graduates are equipped to lead confidently in their
+              chosen fields.
+            </p>
+
+            
+
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
       <div class="col-lg-4 col-md-6">
         <div class="vision-card text-center h-100 border">
           
@@ -189,30 +221,7 @@
         </div>
       </div>
 
-      <!-- CARD 3 -->
-      <div class="col-lg-4 col-md-6">
-        <div class="vision-card text-center h-100 border">
-          
-          <div class="vision-avatar">
-            <img src="/assets/images/pushpa-singh.jpeg" alt="">
-          </div>
-
-          <div class="vision-body">
-            <div class="vision-quote">“</div>
-          <h5 class="vision-name">Smt. Pushpa singh</h5>
-            <p class="vision-text">
-              The future demands innovation. Our focus is on integrating modern
-              teaching methodologies and practical, industry-relevant skills to
-              ensure our graduates are equipped to lead confidently in their
-              chosen fields.
-            </p>
-
-            
-
-           
-          </div>
-        </div>
-      </div>
+    
 
     </div>
   </div>

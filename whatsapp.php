@@ -1,4 +1,5 @@
 <!-- FLOATING WHATSAPP WIDGET -->
+<!-- WHATSAPP -->
 <div class="wa-widget">
   <a id="waLink"
      href="https://wa.me/919415837201"
@@ -7,7 +8,6 @@
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 </div>
-
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -29,3 +29,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+
+
+
+
+
+<!-- PHONE -->
+<div class="phone-widget">
+  <a href="tel:+919415837201" aria-label="Call Now">
+    <i class="fa-solid fa-phone"></i>
+  </a>
+</div>

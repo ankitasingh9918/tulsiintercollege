@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tulsi Inter College</title>
-
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- FontAwesome -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
-  <!-- Main CSS -->
-  <link rel="stylesheet" href="/assets/css/style.css">
-</head>
-<body>
 
 <!-- ===== TOP ADMISSION BAR ===== -->
 <div class="top-bar fixed-top" id="topBar">
@@ -52,12 +35,14 @@
     </a>
 
     <!-- TOGGLE -->
-    <button class="navbar-toggler order-lg-4"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mainMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+   <button class="navbar-toggler order-lg-4" 
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainMenu"
+        aria-expanded="false"
+        id="navToggle">
+  <span class="toggler-icon"></span>
+</button>
     <!-- MENU -->
     <div class="collapse navbar-collapse justify-content-center order-lg-2" id="mainMenu">
       <ul class="navbar-nav align-items-lg-center gap-lg-4">
@@ -136,5 +121,17 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 
-</body>
-</html>
+
+<script>
+const toggleBtn = document.getElementById("navToggle");
+const menu = document.getElementById("mainMenu");
+
+menu.addEventListener("show.bs.collapse", () => {
+  toggleBtn.classList.add("open");
+});
+
+menu.addEventListener("hide.bs.collapse", () => {
+  toggleBtn.classList.remove("open");
+});
+</script>
+

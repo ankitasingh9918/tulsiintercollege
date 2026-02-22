@@ -238,6 +238,56 @@ body {
   box-shadow: 0 6px 16px rgba(12,59,110,0.25);
   color: #fff;
 }
+/* CUSTOM TOGGLER */
+.navbar-toggler{
+  border:none;
+  outline:none;
+  box-shadow:none;
+  width:32px;
+  height:32px;
+  position:relative;
+}
+
+/* 3 lines */
+.toggler-icon,
+.toggler-icon::before,
+.toggler-icon::after{
+  content:"";
+  position:absolute;
+  left:0;
+  width:100%;
+  height:3px;
+  background:#0c3b6e;
+  transition:.3s;
+}
+
+.toggler-icon{
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.toggler-icon::before{
+  top:-8px;
+}
+
+.toggler-icon::after{
+  top:8px;
+}
+
+/* OPEN STATE (X) */
+.navbar-toggler.open .toggler-icon{
+  background:transparent;
+}
+
+.navbar-toggler.open .toggler-icon::before{
+  top:0;
+  transform:rotate(45deg);
+}
+
+.navbar-toggler.open .toggler-icon::after{
+  top:0;
+  transform:rotate(-45deg);
+}
 
 /* ===============================
    TABLET

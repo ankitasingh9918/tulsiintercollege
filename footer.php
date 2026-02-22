@@ -12,7 +12,7 @@
           <img src="/assets/images/footer.jpeg" class="footer-logo mb-3 rounded" alt="logo">
 
           <p>
-            A premier educational institution in Lucknow dedicated to fostering
+            A premier educational institution in  Makhanaha, Azamgarh, dedicated to fostering
             academic excellence and shaping the leaders of tomorrow.
           </p>
         </div>
@@ -81,6 +81,6 @@ India – 276142
       Copyright © 2026 Tulsi Inter College 
       
     </div>
-<?php include "whatsapp.php"; ?>
   </div>
 </footer>
+<?php include "whatsapp.php"; ?>
