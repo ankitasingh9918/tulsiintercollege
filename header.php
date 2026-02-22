@@ -25,7 +25,7 @@
     </span>
 
     <a href="/tulsiintercollege/pages/admissions.php" 
-       class="btn apply-btn fw-bold mt-3">
+       class="btn apply-btn fw-bold">
       APPLY NOW
     </a>
 
