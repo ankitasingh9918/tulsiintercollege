@@ -10,10 +10,6 @@
         <!-- header  -->
          <?php include "header.php" ?>
 
-
-
-         <!-- hero section design  -->
-
          <!-- ===== HERO SECTION ===== -->
 <section class="hero-section d-flex align-items-center">
   <div class="container">
