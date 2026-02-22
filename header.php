@@ -16,40 +16,34 @@
 </head>
 <body>
 
-<!-- ===== TOP ADMISSION BAR ===== -->
-<div class="top-bar fixed-top" id="topBar">
-  <div class="container position-relative text-center">
+<div class="top-bar">
+  <div class="container topbar-inner">
 
-    <span class="top-text">
-      ADMISSIONS OPEN FOR 2026-27
-    </span>
+    <div class="top-left">
+      <span class="top-text">ADMISSIONS OPEN FOR 2026-27</span>
 
-    <a href="/tulsiintercollege/pages/admissions.php" 
-       class="btn apply-btn fw-bold">
-      APPLY NOW
-    </a>
+      <a href="/tulsiintercollege/pages/admissions.php" 
+         class="btn apply-btn">
+        APPLY NOW
+      </a>
+    </div>
 
-    <span class="top-close" id="topClose">&times;</span>
+    <span class="top-close">&times;</span>
 
   </div>
 </div>
 
 <!-- ===== NAVBAR ===== -->
-<!-- ===== NAVBAR ===== -->
 <nav class="navbar navbar-expand-lg main-navbar sticky-top shadow-sm">
-  <div class="container">
+  <div class="container d-flex align-items-center">
 
     <!-- LOGO -->
     <a class="navbar-brand d-flex align-items-center" href="/">
       <img src="/assets/images/logo.png" alt="Logo" class="logo">
     </a>
 
-   <button class="navbar-toggler ms-md-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
-  <span class="navbar-toggler-icon"></span>
-</button>
-
     <!-- MENU -->
-    <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
+    <div class="collapse navbar-collapse justify-content-center order-lg-2" id="mainMenu">
       <ul class="navbar-nav align-items-lg-center gap-lg-4">
 
         <li class="nav-item">
@@ -81,34 +75,42 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="our-schools.php">Our Schools</a>
+          <a class="nav-link" href="/tulsiintercollege/pages/our-schools.php">Our Schools</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="admissions.php">Admissions</a>
+          <a class="nav-link" href="/tulsiintercollege/pages/admissions.php">Admissions</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="contact.php">Contact Us</a>
+          <a class="nav-link" href="/tulsiintercollege/pages/contact.php">Contact Us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="blog.php">Blogs</a>
+          <a class="nav-link" href="/tulsiintercollege/pages/blog.php">Blogs</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="gallery.php">Gallery</a>
+          <a class="nav-link" href="/tulsiintercollege/pages/gallery.php">Gallery</a>
         </li>
 
       </ul>
     </div>
 
-    <!-- ADMISSIONS INQUIRY BUTTON (VISIBLE ON ALL DEVICES) -->
+    <!-- INQUIRY BUTTON -->
     <a href="/tulsiintercollege/pages/admissions.php" 
-       class="btn inquiry-btn align-items-end">
+       class="btn inquiry-btn ms-auto me-3 order-lg-3">
       Admissions Inquiry
       <i class="fa-solid fa-arrow-right ms-2"></i>
     </a>
+
+    <!-- TOGGLE -->
+    <button class="navbar-toggler order-lg-4"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
   </div>
 </nav>
