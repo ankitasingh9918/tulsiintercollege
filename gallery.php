@@ -1,6 +1,6 @@
 <?php
 // Auto load images from folder
-$images = glob("./assets/images/*.{jpg,jpeg,png,webp}", GLOB_BRACE);
+$images = glob("./assets/gallery/*.{jpg,jpeg,png,webp}", GLOB_BRACE);
 ?>
 <!DOCTYPE html>
 <html lang="en">
