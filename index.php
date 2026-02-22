@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tulsi Inter College</title>
-    <link rel="shortcut icon" href="./assets/images/footer.jpeg" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="./assets/images/footer.jpeg" type="image/x-icon"> -->
 </head>
 <body>
         <!-- header  -->
@@ -148,7 +148,8 @@
 
           <div class="vision-body">
             <div class="vision-quote">“</div>
-
+            <h5 class="vision-name">Mr. Jp Singh</h5>
+         
             <p class="vision-text">
               Our vision was to build more than a college; it was to create a
               bedrock of opportunity. We believe that a principled education,
@@ -156,12 +157,11 @@
               for shaping a just and prosperous society.
             </p>
 
-            <h5 class="vision-name">Shri Shiv Saran Upadhyay</h5>
 
-            <p class="vision-role">
+            <!-- <p class="vision-role">
               President – Central Bar Association, Lucknow; President Joint
               Bar Association, Lucknow (U.P.)
-            </p>
+            </p> -->
           </div>
         </div>
       </div>
@@ -176,7 +176,11 @@
 
           <div class="vision-body">
             <div class="vision-quote">“</div>
+             <h5 class="vision-name">Mr. Vikrant Singh </h5>
 
+            <p class="vision-role">
+              Principal – Tulsi Inter College
+            </p>
             <p class="vision-text">
               An institution is like a family. Our mission is to provide a
               nurturing and supportive environment where every student feels
@@ -184,11 +188,7 @@
               as a compassionate individual.
             </p>
 
-            <h5 class="vision-name">Smt. Geeta Upadhyay</h5>
-
-            <p class="vision-role">
-              Founder – Geeta Group of Colleges
-            </p>
+           
           </div>
         </div>
       </div>
@@ -198,12 +198,12 @@
         <div class="vision-card text-center h-100 border">
           
           <div class="vision-avatar">
-            <img src="/assets/images/principal.jpeg" alt="">
+            <img src="/assets/images/pushpa-singh.jpeg" alt="">
           </div>
 
           <div class="vision-body">
             <div class="vision-quote">“</div>
-
+          <h5 class="vision-name">Smt. Pushpa singh</h5>
             <p class="vision-text">
               The future demands innovation. Our focus is on integrating modern
               teaching methodologies and practical, industry-relevant skills to
@@ -211,12 +211,9 @@
               chosen fields.
             </p>
 
-            <h5 class="vision-name">Shri Parth Upadhyay</h5>
+            
 
-            <p class="vision-role">
-              Managing Director – Hon’ble Senior Advocate,
-              High Court of Lucknow
-            </p>
+           
           </div>
         </div>
       </div>

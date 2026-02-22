@@ -726,11 +726,11 @@ body {
 
 
 .vision-avatar {
-  width: 140px;
-  height: 140px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   padding: 6px;
-  background: #2174df;
+  background: rgb(223, 141, 10);
   position: absolute;
   top: -55px;
   left: 50%;
