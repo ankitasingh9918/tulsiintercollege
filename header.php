@@ -22,7 +22,7 @@
     <div class="top-left">
       <span class="top-text">ADMISSIONS OPEN FOR 2026-27</span>
 
-      <a href="/tulsiintercollege/pages/admissions.php" 
+      <a href="#" 
          class="btn apply-btn">
         APPLY NOW
       </a>
@@ -62,12 +62,12 @@
 
           <ul class="dropdown-menu custom-dropdown">
             <li>
-              <a class="dropdown-item" href="/tulsiintercollege/pages/about.php">
+              <a class="dropdown-item" href="#">
                 About College
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="/tulsiintercollege/pages/our-schools.php">
+              <a class="dropdown-item" href="#">
                 Our Alumni
               </a>
             </li>
@@ -75,19 +75,19 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/tulsiintercollege/pages/our-schools.php">Our Schools</a>
+          <a class="nav-link" href="#">Our Schools</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/tulsiintercollege/pages/admissions.php">Admissions</a>
+          <a class="nav-link" href="#">Admissions</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/tulsiintercollege/pages/contact.php">Contact Us</a>
+          <a class="nav-link" href="#">Contact Us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="/tulsiintercollege/pages/blog.php">Blogs</a>
+          <a class="nav-link" href="#">Blogs</a>
         </li>
 
         <li class="nav-item">
@@ -98,7 +98,7 @@
     </div>
 
     <!-- INQUIRY BUTTON -->
-    <a href="/tulsiintercollege/pages/admissions.php" 
+    <a href="#" 
        class="btn inquiry-btn ms-auto me-3 order-lg-3">
       Admissions Inquiry
       <i class="fa-solid fa-arrow-right ms-2"></i>
