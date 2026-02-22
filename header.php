@@ -25,7 +25,7 @@
     </span>
 
     <a href="/tulsiintercollege/pages/admissions.php" 
-       class="btn apply-btn fw-bold">
+       class="btn apply-btn fw-bold mt-3">
       APPLY NOW
     </a>
 
@@ -44,10 +44,9 @@
       <img src="/assets/images/logo.png" alt="Logo" class="logo">
     </a>
 
-    <!-- MOBILE TOGGLE -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+   <button class="navbar-toggler ms-md-auto me-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+  <span class="navbar-toggler-icon"></span>
+</button>
 
     <!-- MENU -->
     <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
@@ -106,7 +105,7 @@
 
     <!-- ADMISSIONS INQUIRY BUTTON (VISIBLE ON ALL DEVICES) -->
     <a href="/tulsiintercollege/pages/admissions.php" 
-       class="btn inquiry-btn align-items-center">
+       class="btn inquiry-btn align-items-end">
       Admissions Inquiry
       <i class="fa-solid fa-arrow-right ms-2"></i>
     </a>
