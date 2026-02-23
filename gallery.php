@@ -2,20 +2,12 @@
 // Auto load images from folder
 $images = glob("./assets/gallery/*.{jpg,jpeg,png,webp}", GLOB_BRACE);
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery</title>
+
 
 <?php include "header-link.php" ?>
 <link rel="stylesheet" href="assets/css/gallery.css">
 
 
-</head>
-
-<body>
 
 <?php include "header.php" ?>
 
@@ -51,5 +43,3 @@ $images = glob("./assets/gallery/*.{jpg,jpeg,png,webp}", GLOB_BRACE);
 <?php include "footer-link.php" ?>
 
 <?php include "footer.php" ?>
-</body>
-</html>

@@ -1,0 +1,460 @@
+/* =========================================
+   ADMISSIONS PAGE – FINAL PREMIUM
+========================================= */
+
+/* =============== HERO =============== */
+.ad-hero{
+  background:
+    radial-gradient(900px 350px at 50% -120px, rgba(255,255,255,.15), transparent),
+    linear-gradient(135deg,#1e4c86,#2f62ad);
+  color:#fff;
+  padding:110px 0 95px;
+  text-align:center;
+}
+
+.ad-hero h1{
+  font-family:'Montserrat',sans-serif;
+  font-size:52px;
+  font-weight:800;
+  margin-bottom:12px;
+}
+
+.ad-hero p{
+  font-size:18px;
+  opacity:.95;
+  max-width:640px;
+  margin:0 auto;
+}
+/* =============== SECTION HEADER =============== */
+.section-title{
+  text-align:center;
+  font-family:'Montserrat',sans-serif;
+  font-size:38px;
+  font-weight:800;
+  color:#0f3d6b;
+  margin:0 auto 14px;
+  position:relative;
+  display:block;
+  padding-bottom:12px;
+  width:fit-content;
+}
+
+.section-title::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:0;
+  transform:translateX(-50%);
+  width:120px;
+  height:4px;
+  border-radius:3px;
+  background:linear-gradient(90deg,#e9881a,#f1a044);
+}
+
+/* Subtitle */
+.section-subtitle{
+  max-width:760px;
+  margin:0 auto 60px;
+  text-align:center;
+  font-size:15px;
+  color:#6b7280;
+  line-height:1.7;
+
+}
+
+/* Responsive */
+@media (max-width:768px){
+  .section-title{
+    font-size:30px;
+  }
+  .section-subtitle{
+    font-size:15.5px;
+    margin-bottom:40px;
+  }
+}
+/* =============== STEPS =============== */
+.admission-steps{
+  background:
+    radial-gradient(900px 280px at 50% -80px, rgba(47,98,173,.08), transparent),
+    linear-gradient(#f4f6f9,#eef2f6);
+  padding:90px 0 80px;
+}
+
+.steps-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:32px;
+}
+
+.step-item{
+  position:relative;
+  background:rgba(255,255,255,.95);
+  border-radius:20px;
+  padding:58px 28px 32px;
+  text-align:center;
+  box-shadow:0 18px 36px rgba(30,76,134,.08);
+  transition:.3s;
+}
+
+.step-item::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:70px;
+  height:4px;
+  border-radius:2px;
+  background:linear-gradient(90deg,#2f62ad,#5b8de0);
+}
+
+.step-item:hover{
+  transform:translateY(-10px);
+  box-shadow:0 28px 56px rgba(30,76,134,.14);
+}
+
+.step-num{
+  position:absolute;
+  top:14px;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:72px;
+  font-weight:800;
+  color:#e7edf5;
+}
+
+.step-item h4{
+  position:relative;
+  font-size:19px;
+  font-weight:700;
+  color:#f39c12;
+  margin-bottom:10px;
+}
+
+.step-item p{
+  font-size:15px;
+  color:#6b7280;
+  line-height:1.7;
+}
+
+/* =============== COLLEGE SELECT =============== */
+.college-select{
+  background:
+    radial-gradient(900px 280px at 50% -80px, rgba(243,156,18,.08), transparent),
+    linear-gradient(#f4f6f9,#eef2f6);
+  padding:80px 0 100px;
+}
+
+.college-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:34px;
+}
+
+/* CARD BASE */
+.college-card{
+  position:relative;
+  background:#ffffff;
+  border-radius:22px;
+  padding:48px 28px 36px;
+  text-align:center;
+  border:2px solid transparent;
+  box-shadow:0 18px 36px rgba(30,76,134,.08);
+  transition:all .35s ease;
+}
+
+/* accent top */
+.college-card::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:90px;
+  height:4px;
+  border-radius:3px;
+  background:linear-gradient(90deg,#f39c12,#f7b733);
+  opacity:.8;
+}
+
+
+
+/* ICON */
+.college-icon{
+  width:78px;
+  height:78px;
+  border-radius:50%;
+  background:linear-gradient(145deg,#eef3fb,#dde7f8);
+  color:#0f3d6b;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:0 auto 20px;
+  font-size:28px;
+  box-shadow:0 12px 26px rgba(30,76,134,.12);
+  transition:.3s;
+}
+
+.college-card:hover .college-icon{
+  transform:scale(1.1);
+}
+
+.college-card:hover .college-icon{
+  background:linear-gradient(135deg,#0f3d6b,#2f62ad);
+  color:#fff;
+}
+
+/* TEXT */
+.college-card h3{
+  font-size:22px;
+  font-weight:700;
+  color:#0f3d6b;
+  margin-bottom:10px;
+}
+
+.college-card p{
+  font-size:15px;
+  color:#6b7280;
+  margin-bottom:26px;
+  line-height:1.6;
+}
+
+/* BUTTON */
+.college-btn{
+  display:inline-block;
+  background:linear-gradient(135deg,#f39c12,#f7b733);
+  color:#fff;
+  padding:12px 30px;
+  border-radius:10px;
+  font-weight:700;
+  font-size:13px;
+  letter-spacing:.5px;
+  text-decoration:none;
+  box-shadow:0 12px 26px rgba(243,156,18,.28);
+  transition:.28s;
+}
+
+.college-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 18px 36px rgba(243,156,18,.35);
+}
+
+/* =============== RESPONSIVE =============== */
+@media (max-width:1100px){
+  .steps-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+  .college-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media (max-width:768px){
+  .ad-hero{
+    padding:90px 0 80px;
+  }
+
+  .ad-hero h1{
+    font-size:38px;
+  }
+
+  .ad-hero p{
+    font-size:16px;
+  }
+
+  .section-title{
+    font-size:30px;
+    margin-bottom:40px;
+  }
+
+  .step-num{
+    font-size:58px;
+  }
+}
+
+@media (max-width:600px){
+  .steps-grid,
+  .college-grid{
+    grid-template-columns:1fr;
+  }
+
+  .step-item{
+    padding:54px 24px 28px;
+  }
+
+  .college-card{
+    padding:44px 24px 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* =============================
+   ADMISSION FORM CARD
+============================= */
+.admission-form-section{
+  background:linear-gradient(#f4f6f9,#eef2f6);
+  padding:80px 0;
+}
+
+.admission-card{
+  max-width:920px;
+  margin:auto;
+  background:#fff;
+  border-radius:14px;
+  padding:30px 34px 46px;
+  box-shadow:0 18px 40px rgba(30,76,134,.08);
+}
+
+/* LOGO */
+.admission-logo{
+  text-align:center;
+  margin-bottom:18px;
+}
+
+.admission-logo img{
+  width:220px;
+  max-width:90%;
+}
+
+/* HEAD */
+.admission-head h3{
+  font-size:18px;
+  font-weight:700;
+  color:#0f3d6b;
+  margin-bottom:4px;
+}
+
+.admission-head p{
+  font-size:12.5px;
+  color:#6b7280;
+  margin-bottom:18px;
+}
+
+/* BLOCK */
+.form-block{
+  margin-top:24px;
+}
+
+.form-block-title{
+  background:#123d6b;
+  color:#fff;
+  font-weight:600;
+  font-size:13px;
+  padding:7px 12px;
+  border-radius:3px;
+  margin-bottom:14px;
+}
+
+/* GRID */
+.form-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px 18px;
+}
+
+.form-field.full{
+  grid-column:1 / -1;
+}
+
+/* INPUT */
+.form-field label{
+  display:block;
+  font-size:12px;
+  margin-bottom:4px;
+  color:#374151;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea{
+  width:100%;
+  border:1px solid #cfd6df;
+  border-radius:3px;
+  padding:7px 8px;
+  font-size:13px;
+  background:#fff;
+}
+
+.form-field textarea{
+  resize:vertical;
+}
+
+.form-field input:focus,
+.form-field select:focus,
+.form-field textarea:focus{
+  outline:none;
+  border-color:#2f62ad;
+  box-shadow:0 0 0 2px rgba(47,98,173,.08);
+}
+
+/* =============================
+   SUBMIT BUTTON
+============================= */
+.form-submit{
+  text-align:center;
+  margin-top:30px;
+}
+
+.admission-submit-btn{
+  background:linear-gradient(135deg,#1e4c86,#2f62ad);
+  color:#fff;
+  border:none;
+  padding:12px 34px;
+  border-radius:8px;
+  font-size:14px;
+  font-weight:600;
+  letter-spacing:.4px;
+  cursor:pointer;
+  box-shadow:0 10px 24px rgba(30,76,134,.25);
+  transition:.25s;
+}
+
+.admission-submit-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 32px rgba(30,76,134,.35);
+}
+
+.admission-submit-btn:active{
+  transform:translateY(0);
+  box-shadow:0 6px 16px rgba(30,76,134,.25);
+}
+
+/* =============================
+   RESPONSIVE
+============================= */
+@media (max-width:768px){
+  .admission-card{
+    padding:28px 22px 34px;
+  }
+
+  .form-grid{
+    grid-template-columns:1fr;
+  }
+
+  .admission-logo img{
+    width:180px;
+  }
+}
+/* =============================
+   RESPONSIVE
+============================= */
+@media (max-width:768px){
+  .admission-card{
+    padding:28px 22px 34px;
+  }
+
+  .form-grid{
+    grid-template-columns:1fr;
+  }
+
+  .admission-logo img{
+    width:180px;
+  }
+}

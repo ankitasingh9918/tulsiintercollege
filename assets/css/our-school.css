@@ -1,0 +1,238 @@
+/* ================= HERO ================= */
+.inst-hero{
+  position:relative;
+  height:450px;
+  background:url("../images/campus9.jpeg") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.inst-hero-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(12,40,70,.75),rgba(12,40,70,.75));
+}
+
+.inst-hero-content{
+  position:relative;
+  color:#fff;
+  text-align:center;
+  z-index:2;
+}
+
+.inst-breadcrumb{
+  font-size:13px;
+  color:#f7b733;
+  margin-bottom:8px;
+  letter-spacing:.4px;
+}
+
+.inst-hero h1{
+  font-family:'Montserrat',sans-serif;
+  font-size:50px;
+  font-weight:800;
+  letter-spacing:.3px;
+  margin-bottom:30px;
+}
+
+/* ================= INTRO FLOAT ================= */
+.inst-intro{
+  position:relative;
+  background:#f4f6f9;
+  padding:0 0 40px;
+}
+
+.inst-intro-card{
+  position:relative;
+  z-index:3;
+  background:#fff;
+  max-width:850px;
+  margin:-110px auto 60px;
+  padding:60px 42px;
+  text-align:center;
+  border-radius:14px;
+  box-shadow:0 28px 70px rgba(0,0,0,.12);
+}
+
+.inst-tag{
+  display:block;
+  font-size:15px;
+  color:#f39c12;
+  font-weight:700;
+  letter-spacing:.9px;
+  margin-bottom:6px;
+}
+
+.inst-intro-card h2{
+  font-size:36px;
+  font-weight:800;
+  color:#0f3d6b;
+  margin:6px 0 12px;
+}
+
+.inst-intro-card p{
+  font-size:14.5px;
+  color:#6b7280;
+  line-height:1.7;
+  max-width:640px;
+  margin:0 auto;
+}
+
+/* ================= SECTION TITLE ================= */
+.section-title{
+  text-align:center;
+  font-family:'Montserrat',sans-serif;
+  font-size:40px;
+  font-weight:800;
+  color:#0f3d6b;
+  margin-bottom:45px;
+  position:relative;
+  padding-bottom:10px;
+}
+
+.section-title::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:0;
+  transform:translateX(-50%);
+  width:70px;
+  height:4px;
+  border-radius:3px;
+  background:linear-gradient(90deg,#2f62ad,#5b8de0);
+}
+
+/* ================= GRID ================= */
+.inst-list{
+  background:#f4f6f9;
+  padding:10px 0 90px;
+}
+
+.inst-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr); /* 3 CARDS */
+  gap:30px;
+}
+
+.inst-card{
+  position:relative;
+  border-radius:14px;
+  overflow:hidden;
+  height:240px;
+  cursor:pointer;
+  box-shadow:0 14px 30px rgba(0,0,0,.08);
+  transition:.35s;
+}
+
+.inst-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:.45s;
+}
+
+.inst-card-overlay{
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(12,40,70,.35),rgba(12,40,70,.9));
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  padding:20px;
+  color:#fff;
+}
+
+.inst-card-overlay h3{
+  font-size:18px;
+  font-weight:700;
+  margin-bottom:4px;
+}
+
+.inst-card-overlay span{
+  font-size:12px;
+  color:#f7b733;
+  font-weight:600;
+  letter-spacing:.3px;
+}
+
+.inst-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 24px 50px rgba(0,0,0,.15);
+}
+
+.inst-card:hover img{
+  transform:scale(1.08);
+}
+
+/* ================= CTA ================= */
+.inst-cta{
+  background:#fff;
+  text-align:center;
+  padding:90px 0;
+}
+
+.inst-cta h2{
+  font-size:30px;
+  font-weight:800;
+  color:#0f3d6b;
+  margin-bottom:12px;
+}
+
+.inst-cta p{
+  font-size:15px;
+  color:#6b7280;
+  max-width:540px;
+  margin:0 auto 24px;
+  line-height:1.6;
+}
+
+.inst-btn{
+  display:inline-block;
+  background:#f39c12;
+  color:#fff;
+  padding:12px 28px;
+  border-radius:6px;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.4px;
+  text-decoration:none;
+  transition:.25s;
+  box-shadow:0 10px 22px rgba(0,0,0,.15);
+}
+
+.inst-btn:hover{
+  background:#d68910;
+  transform:translateY(-2px);
+  box-shadow:0 14px 30px rgba(0,0,0,.2);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width:1100px){
+  .inst-grid{
+    grid-template-columns:repeat(2,1fr); /* tablet 2 */
+  }
+}
+
+@media (max-width:768px){
+  .inst-hero{
+    height:280px;
+  }
+
+  .inst-hero h1{
+    font-size:34px;
+  }
+
+  .inst-intro-card{
+    margin:-70px 20px 40px;
+    padding:26px 22px;
+  }
+
+  .section-title{
+    font-size:28px;
+  }
+
+  .inst-grid{
+    grid-template-columns:1fr; /* mobile 1 */
+  }
+}
