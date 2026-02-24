@@ -132,7 +132,7 @@ body{
 }
 
 @media (max-width:576px){
-  .gallery-header{ margin:40px auto 25px; }
+  .gallery-header{ margin:40px auto 2z5px; }
   .gallery-title{ font-size:30px; }
   .gallery-desc{ font-size:15.5px; }
   .gallery-item img{ height:180px; }
