@@ -49,7 +49,7 @@
       <div class="inst-card">
         <img src="assets/images/pharmacy.webp" alt="">
         <div class="inst-card-overlay">
-          <h3>Tulsi Inter College</h3>
+          <h3 class="text-capitalize">Tulsi inter College</h3>
           <span>Explore Programs</span>
         </div>
       </div>
@@ -57,7 +57,7 @@
       <div class="inst-card">
         <img src="assets/images/law.jpg" alt="">
         <div class="inst-card-overlay">
-          <h3>Tulsi Inter College</h3>
+          <h3 class="text-capitalize">Tulsi purv madhyamik vidyalay</h3>
           <span>Explore Programs</span>
         </div>
       </div>
@@ -65,7 +65,7 @@
       <div class="inst-card">
         <img src="assets/images/degree.avif" alt="">
         <div class="inst-card-overlay">
-          <h3>Tulsi Inter College</h3>
+          <h3 class="text-capitalize">Tulsi prathmik vidyalaya</h3>
           <span>Explore Programs</span>
         </div>
       </div>

@@ -22,12 +22,12 @@
       <div class="col-lg-2 col-md-6">
         <h5 class="footer-title">Quick Links</h5>
         <ul class="footer-links">
-          <li><a href="/tulsiintercollege/pages/about.php" class="">About Us</a></li>
-          <li><a href="/tulsiintercollege/pages/admissions.php">Admissions</a></li>
-          <li><a href="#">Refund Policy</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-          <li><a href="/tulsiintercollege/pages/contact.php">Contact Us</a></li>
+          <li><a href="/" class="">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="our-schools.php">Our Schools</a></li>
+          <li><a href="admissions.php">Admissions</a></li>
+          <li><a href="blog.php">Blogs</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </div>
 
@@ -76,11 +76,16 @@ India – 276142
 
     </div>
 
-    <!-- COPYRIGHT -->
-    <div class="footer-bottom text-center mt-4 pt-3">
-      Copyright © 2026 Tulsi Inter College 
-      
-    </div>
+   <!-- COPYRIGHT -->
+<div class="footer-bottom text-center mt-4 pt-3">
+  <p class="mb-0">
+    © 2026 Tulsi Inter College. All Rights Reserved. <br>
+    Designed & Developed by 
+    <a href="https://nivrajsoftware.com/" target="_blank" rel="noopener">
+      Nivraj Software Solutions
+    </a>
+  </p>
+</div>
   </div>
 </footer>
 <?php include "whatsapp.php"; ?>

@@ -7,7 +7,7 @@
       ADMISSIONS OPEN FOR 2026-27
     </span>
 
-    <a href="/tulsiintercollege/pages/admissions.php" 
+    <a href="admissions.php" 
        class="btn apply-btn fw-bold">
       APPLY NOW
     </a>

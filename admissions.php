@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gallery</title>
+<title>Admission</title>
 
 <?php include "header-link.php" ?>
 <link rel="stylesheet" href="assets/css/admission.css">
@@ -84,7 +84,7 @@
       <!-- CARD -->
       <div class="college-card">
         <div class="college-icon"><i class="fa-solid fa-mortar-pestle"></i></div>
-        <h3>Geeta Pharmacy College</h3>
+        <h3 class="text-capitalize">Tulsi inter College</h3>
         <p>Apply for B.Pharm and D.Pharm programs.</p>
         <a href="#" class="college-btn">ADMISSION NOW</a>
       </div>
@@ -92,7 +92,7 @@
       <!-- CENTER ACTIVE -->
       <div class="college-card active">
         <div class="college-icon"><i class="fa-solid fa-scale-balanced"></i></div>
-        <h3>Geeta Law College</h3>
+        <h3 class="text-capitalize">Tulsi purv madhyamik vidyalay</h3>
         <p>Apply for LLB (3 Years) & BA-LLB (5 Years).</p>
         <a href="#" class="college-btn">ADMISSION NOW</a>
       </div>
@@ -100,7 +100,7 @@
       <!-- CARD -->
       <div class="college-card">
         <div class="college-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-        <h3>Geeta Degree College</h3>
+        <h3 class="text-capitalize">Tulsi prathmik vidyalaya</h3>
         <p>Apply for BCA and BA degree programs.</p>
         <a href="#" class="college-btn">ADMISSION NOW</a>
       </div>
