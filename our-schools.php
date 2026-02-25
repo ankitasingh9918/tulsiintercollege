@@ -14,30 +14,29 @@
 <body>
 <?php include "header.php"; ?>
 
-<!-- HERO -->
-<section class="inst-hero">
-  <div class="inst-hero-overlay"></div>
-  <div class="container inst-hero-content">
-    <div class="inst-breadcrumb">Home / Our Institutions</div>
+     <section class="inst-hero">
+  <div class="inst-hero-content">
+  <div class="inst-breadcrumb">
+  <a href="index.php">Home</a> / <span>Our Institutions</span>
+</div>
     <h1>Our Institutions</h1>
   </div>
 </section>
 
-<!-- FLOAT INTRO -->
 <section class="inst-intro">
   <div class="container">
     <div class="inst-intro-card">
-      <span class="inst-tag">A Unified Vision</span>
+      <span class="inst-tag">A UNIFIED VISION</span>
       <h2>Diverse Opportunities, Singular Excellence</h2>
       <p>
-        With each of our institutions grounded in excellence and shaped by a shared
-        commitment to academic rigor, student development, and professional integrity,
-        explore the diverse paths to success available at Geeta Group.
+        While each of our institutions possesses its own unique character and
+        specialization, they are all united by a shared commitment to academic rigor,
+        student development, and professional integrity. Explore the diverse paths
+        to success available at Tulsi Group.
       </p>
     </div>
   </div>
 </section>
-
 <!-- INSTITUTIONS -->
 <section class="inst-list">
   <div class="container">

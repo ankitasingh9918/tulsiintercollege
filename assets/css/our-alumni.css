@@ -1,0 +1,224 @@
+/* ================= HERO ================= */
+
+.alumni-hero{
+  position:relative;
+  height:420px;
+  background:url("../images/campus9.jpeg") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* overlay */
+.alumni-hero::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(rgba(7,33,61,.75),rgba(7,33,61,.85));
+}
+
+/* content */
+.alumni-hero-content{
+  position:relative;
+  z-index:2;
+  text-align:center;
+  color:#fff;
+}
+
+.alumni-breadcrumb{
+  color:#f4a62a;
+  font-size:14px;
+  font-weight:600;
+  margin-bottom:12px;
+}
+
+.alumni-breadcrumb a{
+  color:#f4a62a;
+  text-decoration:none;
+  transition:.25s;
+}
+
+.alumni-breadcrumb a:hover{
+  color:#ffd27a;
+}
+
+.alumni-breadcrumb span{
+  color:#fff;
+}
+
+.alumni-hero h1{
+  font-family:'Montserrat',sans-serif;
+  font-size:48px;
+  font-weight:800;
+  letter-spacing:.3px;
+}
+
+/* ================= INTRO ================= */
+
+.alumni-intro{
+  background:#f4f6f9;
+  padding:90px 0 70px;
+  text-align:center;
+}
+
+.alumni-title{
+  font-family:'Montserrat',sans-serif;
+  font-size:40px;
+  font-weight:800;
+  color:#123e6d;
+  margin-bottom:18px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:12px;
+}
+
+/* underline */
+.alumni-title::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  bottom:0;
+  transform:translateX(-50%);
+  width:70px;
+  height:4px;
+  border-radius:3px;
+  background:linear-gradient(90deg,#2f62ad,#5b8de0);
+}
+
+.alumni-text{
+  max-width:720px;
+  margin:0 auto;
+  font-size:16.5px;
+  line-height:1.8;
+  color:#4b5563;
+}
+
+/* ================= CTA ================= */
+
+.alumni-cta{
+  background:#ffffff;
+  text-align:center;
+  padding:100px 20px;
+  position:relative;
+  overflow:hidden;
+}
+
+/* soft glow */
+.alumni-cta::before{
+  content:"";
+  position:absolute;
+  top:-120px;
+  left:50%;
+  transform:translateX(-50%);
+  width:600px;
+  height:260px;
+  background:radial-gradient(rgba(47,98,173,.12), transparent 70%);
+  pointer-events:none;
+}
+
+.alumni-cta h2{
+  font-family:'Montserrat',sans-serif;
+  font-size:36px;
+  font-weight:800;
+  color:#123e6d;
+  margin-bottom:14px;
+}
+
+.alumni-cta p{
+  max-width:640px;
+  margin:0 auto 28px;
+  font-size:16px;
+  color:#4b5563;
+  line-height:1.7;
+}
+
+.alumni-btn{
+  display:inline-block;
+  background:linear-gradient(135deg,#123e6d,#2f62ad);
+  color:#fff;
+  padding:14px 34px;
+  border-radius:10px;
+  font-size:14px;
+  font-weight:700;
+  letter-spacing:.5px;
+  text-decoration:none;
+  transition:.3s;
+  box-shadow:0 14px 30px rgba(18,62,109,.25);
+}
+
+.alumni-btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 22px 50px rgba(18,62,109,.35);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:992px){
+
+  .alumni-hero{
+    height:340px;
+  }
+
+  .alumni-hero h1{
+    font-size:38px;
+  }
+
+  .alumni-title{
+    font-size:32px;
+  }
+}
+
+@media (max-width:768px){
+
+  .alumni-hero{
+    height:300px;
+  }
+
+  .alumni-hero h1{
+    font-size:30px;
+  }
+
+  .alumni-title{
+    font-size:28px;
+  }
+
+  .alumni-text{
+    font-size:15.5px;
+  }
+
+  .alumni-cta{
+    padding:80px 20px;
+  }
+
+  .alumni-cta h2{
+    font-size:28px;
+  }
+}
+
+@media (max-width:480px){
+
+  .alumni-hero{
+    height:260px;
+  }
+
+  .alumni-hero h1{
+    font-size:24px;
+  }
+
+  .alumni-breadcrumb{
+    font-size:13px;
+  }
+
+  .alumni-title{
+    font-size:24px;
+  }
+
+  .alumni-text{
+    font-size:15px;
+  }
+
+  .alumni-btn{
+    padding:12px 26px;
+    font-size:13px;
+  }
+}

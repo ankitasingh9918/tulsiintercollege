@@ -18,7 +18,6 @@
 </div>
 
 <!-- ===== NAVBAR ===== -->
-<!-- ===== NAVBAR ===== -->
 <nav class="navbar navbar-expand-lg main-navbar sticky-top shadow-sm">
 <!-- INQUIRY BUTTON -->
    
@@ -68,7 +67,7 @@
               </a>
             </li>
             <li>
-              <a class="dropdown-item" href="our-schools.php">
+              <a class="dropdown-item" href="our-alumni.php">
                 Our Alumni
               </a>
             </li>
@@ -134,4 +133,5 @@ menu.addEventListener("hide.bs.collapse", () => {
   toggleBtn.classList.remove("open");
 });
 </script>
+
 

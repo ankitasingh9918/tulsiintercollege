@@ -19,8 +19,8 @@
       <div class="col-lg-7">
 
         <h1 class="hero-title">
-         Your Dreams  <br>
-        Begins Here .
+         Your Future  <br>
+        Begins Here 
         </h1>
 
         <a href="#" class="btn btn-warning hero-btn">
